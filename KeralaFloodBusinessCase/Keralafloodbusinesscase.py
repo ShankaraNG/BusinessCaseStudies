@@ -41,7 +41,7 @@ def averagedriver(data):
     plt.show()
     plt.close()
         
-# averagedriver(data)
+averagedriver(data)
 
 #From this we can get to know that the highest rainfall occurs in the month of July which is about 698.22 and least rain fall occurs in the month of Jan which is 12.22
 #on an average across the years from 1901 to 2018
@@ -65,7 +65,7 @@ def a10yeardriver(data):
         plt.show()
         plt.close()
         
-# a10yeardriver(df_last10)
+a10yeardriver(df_last10)
 
 #3) What is the Annual Rainfall in Kerala for the last 10 Years
 
@@ -81,7 +81,7 @@ def AnnualRainfallfor10years(df_last10):
         plt.show()
         plt.close()
         
-# AnnualRainfallfor10years(df_last10)
+AnnualRainfallfor10years(df_last10)
 
 #From this we can say that 2018 had the highest ammount of Rain Fall in the last 10 years
 
@@ -101,7 +101,7 @@ def Floodinlast10years(df_last10):
 
 Floodinlast10years(df_last10)
 
-# from this we can say that Kerala had floods in the year 2010,11,13,14 and 18.
+#from this we can say that Kerala had floods in the year 2010,11,13,14 and 18.
 
 #5) how much rainfall index is considered as a heavy ranifall?
 
